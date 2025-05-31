@@ -27,30 +27,38 @@ function Footer() {
 
         {/* Navigation Links Section */}
         <nav className="flex flex-wrap justify-center md:justify-start gap-x-6 gap-y-2">
-          <a
+          <Link
             href="#Home"
             className="text-sm font-medium hover:text-white transition-all duration-300 transform hover:scale-105"
           >
             Home
-          </a>
-          <a
+          </Link>
+          <Link
             href="#About"
             className="text-sm font-medium hover:text-white transition-all duration-300 transform hover:scale-105"
           >
             About
-          </a>
-          <a
+          </Link>
+          <Link
             href="#Projects"
             className="text-sm font-medium hover:text-white transition-all duration-300 transform hover:scale-105"
           >
             Projects
-          </a>
-          <a
+          </Link>
+          <Link
             href="#Education"
             className="text-sm font-medium hover:text-white transition-all duration-300 transform hover:scale-105"
           >
             Education
-          </a>
+          </Link>
+          <Link
+            href="https://leomahendradev.blogspot.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-sm font-medium hover:text-white transition-all duration-300 transform hover:scale-105"
+          >
+            Blog
+          </Link>
         </nav>
 
         {/* Social Media Links Section */}

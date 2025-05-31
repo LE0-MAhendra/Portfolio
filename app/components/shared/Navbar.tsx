@@ -45,7 +45,11 @@ function Navbar() {
         >
           Leo Mahendra
         </h1>
-        <Link ref={resumeRef} href={ResumeLink} className="text-xl font-bold ">
+        <Link
+          ref={resumeRef}
+          href={ResumeLink}
+          className="text-xl font-bold pointer"
+        >
           <button className="px-6 py-2 bg-blue-300 text-black text-xl max-sm:hidden">
             Resume
           </button>
