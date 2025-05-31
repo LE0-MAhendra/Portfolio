@@ -45,15 +45,11 @@ function Navbar() {
         >
           Leo Mahendra
         </h1>
-        <Link
-          ref={resumeRef}
-          href={ResumeLink}
-          className="text-xl font-bold pointer"
-        >
-          <button className="px-6 py-2 bg-blue-300 text-black text-xl max-sm:hidden">
+        <Link ref={resumeRef} href={ResumeLink} className="text-xl font-bold">
+          <button className="px-6 py-2 bg-blue-300 text-black text-xl max-sm:hidden cursor-pointer">
             Resume
           </button>
-          <button className="bg-yellow-50 p-2 rounded-xl text-black text-xl sm:hidden">
+          <button className="bg-yellow-50 p-2 rounded-xl text-black text-xl sm:hidden cursor-pointer">
             <Scroll />
           </button>
         </Link>
