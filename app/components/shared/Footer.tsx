@@ -1,5 +1,6 @@
 "use client";
-import { Github , Linkedin, Mail, ArrowUp } from "lucide-react";
+import { ResumeLink } from "@/app/utils/data";
+import { Github, Linkedin, Mail, ArrowUp, Scroll } from "lucide-react";
 import Link from "next/link";
 import React from "react";
 
@@ -91,6 +92,14 @@ function Footer() {
         >
           <ArrowUp size={20} />
         </button>
+        <Link href={ResumeLink} className="text-xl font-bold ">
+          <button className="px-6 py-2 bg-blue-300 text-black text-xl max-sm:hidden">
+            Resume
+          </button>
+          <button className="bg-yellow-50 p-2 rounded-xl text-black text-xl sm:hidden">
+            <Scroll />
+          </button>
+        </Link>
       </div>
     </footer>
   );

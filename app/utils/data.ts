@@ -185,3 +185,6 @@ export const skills = {
         { GSAP: `/skills/scrapy` }
     ],
 };
+
+
+export const ResumeLink = "https://drive.google.com/file/d/1o49dOIJ19fIUMgDrWMsRVmuQLjqcO6OU/view?usp=drive_link"
