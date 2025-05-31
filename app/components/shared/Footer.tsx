@@ -82,6 +82,14 @@ function Footer() {
           >
             <Mail size={24} strokeWidth={1.5} /> {/* Mail icon from Lucide */}
           </Link>
+          <Link
+            href={ResumeLink}
+            className="text-gray-400 hover:text-red-400 transition-all duration-300 transform hover:scale-110 "
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Scroll />
+          </Link>
         </div>
 
         {/* Back to Top Button */}
@@ -92,14 +100,6 @@ function Footer() {
         >
           <ArrowUp size={20} />
         </button>
-        <Link href={ResumeLink} className="text-xl font-bold ">
-          <button className="px-6 py-2 bg-blue-300 text-black text-xl max-sm:hidden">
-            Resume
-          </button>
-          <button className="bg-yellow-50 p-2 rounded-xl text-black text-xl sm:hidden">
-            <Scroll />
-          </button>
-        </Link>
       </div>
     </footer>
   );
